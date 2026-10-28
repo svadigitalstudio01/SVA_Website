@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVA Digital Studio — Building Modern Websites for Growing Businesses</title>
+  <meta name="description" content="Thoughtful design and modern web development for businesses, startups, and individuals. Specializing in business websites, personal portfolios, and high-impact landing pages.">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://svadigitalstudio.com/">
+  <meta property="og:title" content="SVA Digital Studio — Building Modern Websites for Growing Businesses">
+  <meta property="og:description" content="Thoughtful Design. Modern Websites. Smart Solutions. Visionary Design. Meaningful Achievement.">
+  <meta property="og:site_name" content="SVA Digital Studio">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SVA Digital Studio — Freelance Web Development">
+  <meta name="twitter:description" content="Creating clean, modern, and user-friendly websites for businesses, startups, and individuals.">
+  
+  <!-- Google Fonts: Outfit (Headings) & Plus Jakarta Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+  
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "SVA Digital Studio",
+    "description": "Freelance web development studio creating modern, responsive, and user-friendly websites for businesses, startups, and individuals.",
+    "slogan": "Thoughtful Design. Modern Websites.",
+    "url": "https://svadigitalstudio.com/",
+    "serviceType": [
+      "Business Websites",
+      "Portfolio Websites",
+      "Landing Pages",
+      "Responsive Web Design"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER & NAVIGATION
+       ====================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <!-- SVA Digital Studio Brand Logo -->
+      <a href="#hero" class="brand-link" aria-label="SVA Digital Studio Home">
+        <img src="sva-logo.jpeg" alt="SVA Digital Studio Logo" class="brand-logo-img" width="42" height="42">
+        <span class="brand-text">
+          <span class="brand-title">SVA</span>
+          <span class="brand-subtitle">Digital Studio</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation Menu (Zone 2) -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Primary Action & Mobile Menu Toggle (Zone 3) -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">Let's Talk</a>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-drawer" class="mobile-nav-drawer" aria-label="Mobile Navigation Menu">
+    <nav class="mobile-nav-list">
+      <a href="#hero" class="mobile-nav-link active">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#services" class="mobile-nav-link">Services</a>
+      <a href="#projects" class="mobile-nav-link">Projects</a>
+      <a href="#process" class="mobile-nav-link">Process</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary mobile-nav-cta">Let's Talk</a>
+  </div>
+
+  <main>
+    <!-- ====================================================================
+         HERO SECTION
+         ==================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <!-- Left Column: Content & Calls to Action -->
+        <div class="hero-content reveal-fade-up">
+          <span class="section-label">FREELANCE WEB DEVELOPMENT</span>
+          
+          <h1 class="hero-title">
+            Building <span class="gradient-text">Modern Websites</span> for Growing Businesses.
+          </h1>
+          
+          <p class="hero-description">
+            I help businesses, startups, and individuals build modern, responsive websites that communicate their ideas and create a strong online presence.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Start a Project</a>
+            <a href="#projects" class="btn btn-secondary">Explore My Work</a>
+          </div>
+
+          <div class="hero-tagline-block">
+            <svg class="hero-tagline-sparkle" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2L14.4 9.6L22 12L14.4 14.4L12 22L9.6 14.4L2 12L9.6 9.6L12 2Z"/>
+            </svg>
+            <span>Thoughtful Design. Modern Websites.</span>
+          </div>
+
+          <!-- Hero Social and Contact Icons -->
+          <div class="hero-social">
+            <span class="hero-social-label">Connect & Inquire</span>
+            <div class="social-icons-group">
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/sva.digitalstudio/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram profile @sva.digitalstudio">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/svadigitalstudio" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn profile svadigitalstudio" title="LinkedIn Profile (svadigitalstudio)">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+
+              <!-- Email (Direct Gmail Compose) -->
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sva.digitalstudio01@gmail.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Compose email to sva.digitalstudio01@gmail.com on Gmail" title="Compose on Gmail (sva.digitalstudio01@gmail.com)">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+                </svg>
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://github.com/svadigitalstudio01" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub profile svadigitalstudio01">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Project Preview Mockup -->
+        <div class="hero-mockup-wrapper reveal-fade-up delay-2">
+          <!-- Decorative subtle orbital background circle inspired by logo -->
+          <div class="hero-orbit-accent" aria-hidden="true"></div>
+
+          <div class="hero-browser-mockup">
+            <!-- Mockup Window Bar -->
+            <div class="mockup-header-bar">
+              <div class="mockup-controls">
+                <span class="mockup-control-dot close"></span>
+                <span class="mockup-control-dot min"></span>
+                <span class="mockup-control-dot max"></span>
+              </div>
+              <div class="mockup-url-bar">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                </svg>
+                <span>svadigitalstudio.com/preview</span>
+              </div>
+              <div style="width: 42px;"></div>
+            </div>
+
+            <!-- Mockup Inner Content -->
+            <div class="mockup-body">
+              <div class="mockup-preview-screen">
+                <div class="mockup-logo-row">
+                  <span class="mockup-mini-logo">
+                    <span style="color:#C4B5FD;">◆</span> SVA Studio
+                  </span>
+                  <span class="mockup-badge-live">● Responsive Ready</span>
+                </div>
+                
+                <div class="mockup-hero-block">
+                  <div class="mockup-fake-title"></div>
+                  <div class="mockup-fake-text"></div>
+                  <div class="mockup-fake-text short"></div>
+                </div>
+
+                <div class="mockup-cards-row">
+                  <div class="mockup-mini-card">
+                    <div class="mini-card-icon">
+                      <svg viewBox="0 0 24 24"><path d="M12 2L2 7L12 12L22 7L12 2Z"/></svg>
+                    </div>
+                    <span class="mini-card-title">Clean Code</span>
+                  </div>
+                  <div class="mockup-mini-card">
+                    <div class="mini-card-icon">
+                      <svg viewBox="0 0 24 24"><path d="M4 6H20V18H4z"/></svg>
+                    </div>
+                    <span class="mini-card-title">Responsive</span>
+                  </div>
+                  <div class="mockup-mini-card">
+                    <div class="mini-card-icon">
+                      <svg viewBox="0 0 24 24"><path d="M13 2L3 14H12L11 22L21 10H12L13 2Z"/></svg>
+                    </div>
+                    <span class="mini-card-title">Optimized</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mockup-footer-tags">
+                <div class="mockup-tech-stack">
+                  <span class="mockup-tag">HTML5</span>
+                  <span class="mockup-tag">CSS3</span>
+                  <span class="mockup-tag">Vanilla JS</span>
+                </div>
+                <span style="font-size:0.75rem; color:var(--text-muted);">60 FPS UI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABOUT SECTION
+         ==================================================================== -->
+    <section class="section-alt" id="about">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-label">ABOUT SVA DIGITAL STUDIO</span>
+          <h2 class="section-title">A Thoughtful Approach to Web Design</h2>
+          <p class="section-desc">
+            SVA Digital Studio is my freelance web development brand, focused on creating clean, modern, and user-friendly websites. I combine thoughtful design with practical development to help businesses and individuals present their ideas online.
+          </p>
+        </div>
+
+        <!-- Brand Statement Banner -->
+        <div class="about-statement-box reveal-fade-up delay-1">
+          <p class="about-statement-quote">
+            “Smart Solutions. Visionary Design. Meaningful Achievement.”
+          </p>
+        </div>
+
+        <!-- Three Brand Values: SMART, VISION, ACHIEVEMENT -->
+        <div class="brand-values-grid">
+          <!-- SMART -->
+          <div class="value-card reveal-fade-up delay-1">
+            <div class="value-letter-crest">
+              <span class="value-letter">S</span>
+              <div class="value-icon-circle" aria-hidden="true">
+                <!-- Precision / Logic Chip SVG -->
+                <svg viewBox="0 0 24 24">
+                  <path d="M9 3L7 5H4C3.45 5 3 5.45 3 6V9L1 11L3 13V16C3 16.55 3.45 17 4 17H7L9 19H12L14 17H17C17.55 17 18 16.55 18 16V13L20 11L18 9V6C18 5.45 17.55 5 17 5H14L12 3H9ZM12 8C13.66 8 15 9.34 15 11C15 12.66 13.66 14 12 14C10.34 14 9 12.66 9 11C9 9.34 10.34 8 12 8Z"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="value-title">SMART</h3>
+            <p class="value-desc">Practical solutions designed around real needs.</p>
+          </div>
+
+          <!-- VISION -->
+          <div class="value-card reveal-fade-up delay-2">
+            <div class="value-letter-crest">
+              <span class="value-letter">V</span>
+              <div class="value-icon-circle" aria-hidden="true">
+                <!-- Vision / Lens SVG -->
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 4.5C7 4.5 2.73 7.61 1 12C2.73 16.39 7 19.5 12 19.5C17 19.5 21.27 16.39 23 12C21.27 7.61 17 4.5 12 4.5ZM12 17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7C14.76 7 17 9.24 17 12C17 14.76 14.76 17 12 17ZM12 9C10.34 9 9 10.34 9 12C9 13.66 10.34 15 12 15C13.66 15 15 13.66 15 12C15 10.34 13.66 9 12 9Z"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="value-title">VISION</h3>
+            <p class="value-desc">Creative ideas transformed into meaningful digital experiences.</p>
+          </div>
+
+          <!-- ACHIEVEMENT -->
+          <div class="value-card reveal-fade-up delay-3">
+            <div class="value-letter-crest">
+              <span class="value-letter">A</span>
+              <div class="value-icon-circle" aria-hidden="true">
+                <!-- Pinnacle / Achievement Crest SVG -->
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="value-title">ACHIEVEMENT</h3>
+            <p class="value-desc">Purposeful websites built to support your goals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SERVICES SECTION
+         ==================================================================== -->
+    <section id="services">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-label">WHAT I OFFER</span>
+          <h2 class="section-title">What I Can Build for You</h2>
+          <p class="section-desc">
+            Every project starts with an idea. My goal is to turn that idea into a professional online experience.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Business Websites -->
+          <div class="service-card reveal-fade-up delay-1">
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Building / Business SVG -->
+              <svg viewBox="0 0 24 24">
+                <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM9 19H5V15H9V19ZM9 13H5V9H9V13ZM9 7H5V5H9V7ZM15 19H11V15H15V19ZM15 13H11V9H15V13ZM15 7H11V5H15V7ZM19 19H17V5H19V19Z"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Business Websites</h3>
+            <p class="service-card-desc">
+              Professional websites that help businesses establish their online presence, present their services, and communicate with potential customers.
+            </p>
+            <ul class="service-feature-list">
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>Business information pages</span>
+              </li>
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>Service descriptions & offerings</span>
+              </li>
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>Responsive layouts across screens</span>
+              </li>
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>Direct contact & inquiry sections</span>
+              </li>
+            </ul>
+            <a href="#contact" class="service-card-cta">
+              Discuss Your Project
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+
+          <!-- Service 2: Portfolio Websites -->
+          <div class="service-card reveal-fade-up delay-2">
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Portfolio / User Card SVG -->
+              <svg viewBox="0 0 24 24">
+                <path d="M20 6H16V4C16 2.89 15.11 2 14 2H10C8.89 2 8 2.89 8 4V6H4C2.89 6 2 6.89 2 8V19C2 20.11 2.89 21 4 21H20C21.11 21 22 20.11 22 19V8C22 6.89 21.11 6 20 6ZM10 4H14V6H10V4ZM20 19H4V8H20V19ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10Z"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Portfolio Websites</h3>
+            <p class="service-card-desc">
+              Personal portfolio websites that showcase your skills, projects, experience, and achievements in a clean and professional way.
+            </p>
+            <ul class="service-feature-list">
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>Personal introduction & bio</span>
+              </li>
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>Technical skills & project showcases</span>
+              </li>
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>Resume or experience section</span>
+              </li>
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>Social profiles & contact channels</span>
+              </li>
+            </ul>
+            <a href="#contact" class="service-card-cta">
+              Discuss Your Project
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+
+          <!-- Service 3: Landing Pages -->
+          <div class="service-card reveal-fade-up delay-3">
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Rocket / Target Launch SVG -->
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2.5C7.03 2.5 3 6.53 3 11.5C3 14.15 4.15 16.53 5.99 18.17L4.58 19.58C4.2 19.97 4.2 20.6 4.58 20.99C4.97 21.38 5.6 21.38 5.99 20.99L7.4 19.58C9.05 20.47 10.96 21 13 21C17.97 21 22 16.97 22 12C22 7.03 17.97 2.5 12 2.5ZM12 19C7.86 19 4.5 15.64 4.5 11.5C4.5 7.36 7.86 4 12 4C16.14 4 19.5 7.36 19.5 11.5C19.5 15.64 16.14 19 12 19ZM12 6.5C9.24 6.5 7 8.74 7 11.5C7 14.26 9.24 16.5 12 16.5C14.76 16.5 17 14.26 17 11.5C17 8.74 14.76 6.5 12 6.5Z"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Landing Pages</h3>
+            <p class="service-card-desc">
+              Focused, responsive landing pages designed to present an offer, highlight important information, and encourage visitors to take action.
+            </p>
+            <ul class="service-feature-list">
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>Clear headline & value propositions</span>
+              </li>
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>Engaging feature sections & visuals</span>
+              </li>
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>High-converting call-to-action buttons</span>
+              </li>
+              <li class="service-feature-item">
+                <span class="service-feature-bullet"></span>
+                <span>Fully responsive cross-platform layouts</span>
+              </li>
+            </ul>
+            <a href="#contact" class="service-card-cta">
+              Discuss Your Project
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         PROJECTS SECTION
+         ==================================================================== -->
+    <section class="section-alt" id="projects">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-label">SELECTED WORKS</span>
+          <h2 class="section-title">Selected Projects</h2>
+          <p class="section-desc">
+            Explore a selection of personal and learning projects that demonstrate my interest in web development and practical problem-solving.
+          </p>
+        </div>
+
+        <div class="projects-notice-banner reveal-fade-up">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          <span>Personal & learning projects. All project links and preview assets are easily editable.</span>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Cyber Attack Prediction Application -->
+          <div class="project-card reveal-fade-up delay-1">
+            <div class="project-preview-frame">
+              <div class="preview-bar">
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span style="font-size:0.65rem; color:var(--text-muted); margin-left: 0.5rem; font-family:var(--font-mono);">cyber-telemetry-dashboard</span>
+              </div>
+              <div class="preview-canvas">
+                <div class="project-cyber-graphic">
+                  <div style="display:flex; justify-content:space-between; font-size:0.65rem; color:var(--lavender); font-family:var(--font-mono);">
+                    <span>THREAT METRICS</span>
+                    <span style="color:#F59E0B;">ANALYZING</span>
+                  </div>
+                  <div class="cyber-graph-line">
+                    <div class="cyber-bar" style="height: 40%;"></div>
+                    <div class="cyber-bar" style="height: 75%;"></div>
+                    <div class="cyber-bar" style="height: 55%;"></div>
+                    <div class="cyber-bar" style="height: 90%;"></div>
+                    <div class="cyber-bar" style="height: 65%;"></div>
+                    <div class="cyber-bar" style="height: 80%;"></div>
+                    <div class="cyber-bar" style="height: 45%;"></div>
+                  </div>
+                  <div style="height: 4px; width: 60%; background: var(--electric-violet); border-radius: 2px;"></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-content">
+              <span class="project-category-tag">Cybersecurity Project</span>
+              <h3 class="project-title">Cyber Attack Prediction Application</h3>
+              <p class="project-desc">
+                A cybersecurity project focused on predicting potential cyber threats and presenting relevant information through a dashboard.
+              </p>
+              
+              <div class="project-tech-badges">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">MySQL</span>
+              </div>
+
+              <div class="project-actions">
+                <!-- Replace with real link when live URL is ready -->
+                <a href="#contact" class="project-link" title="Contact to request project access or source demo">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 24 24"><path d="M14 3H21V10M21 3L10 14M5 7H3V21H17V19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                </a>
+                <button type="button" class="project-modal-trigger" data-project-target="cyber">
+                  Project Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Medical Chatbot -->
+          <div class="project-card reveal-fade-up delay-2">
+            <div class="project-preview-frame">
+              <div class="preview-bar">
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span style="font-size:0.65rem; color:var(--text-muted); margin-left: 0.5rem; font-family:var(--font-mono);">medical-conversational-ai</span>
+              </div>
+              <div class="preview-canvas">
+                <div class="project-chatbot-graphic">
+                  <div class="chat-bubble bot">
+                    Hello! How can I assist you with wellness questions today?
+                  </div>
+                  <div class="chat-bubble user">
+                    What are the benefits of staying hydrated?
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-content">
+              <span class="project-category-tag">Conversational AI Project</span>
+              <h3 class="project-title">Medical Chatbot</h3>
+              <p class="project-desc">
+                An interactive chatbot project exploring how language-model technology can support a conversational user experience for health-related questions.
+              </p>
+              
+              <div class="project-disclaimer">
+                <strong>Disclaimer:</strong> This is an educational demonstration project. It is not intended for medical diagnosis, treatment, or professional clinical advice.
+              </div>
+
+              <div class="project-tech-badges">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">LLM Concepts</span>
+              </div>
+
+              <div class="project-actions">
+                <!-- Replace with real link when live URL is ready -->
+                <a href="#contact" class="project-link" title="Contact to request project access or source demo">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 24 24"><path d="M14 3H21V10M21 3L10 14M5 7H3V21H17V19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                </a>
+                <button type="button" class="project-modal-trigger" data-project-target="chatbot">
+                  Project Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Personal Portfolio Website -->
+          <div class="project-card reveal-fade-up delay-3">
+            <div class="project-preview-frame">
+              <div class="preview-bar">
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span style="font-size:0.65rem; color:var(--text-muted); margin-left: 0.5rem; font-family:var(--font-mono);">sva-portfolio-preview</span>
+              </div>
+              <div class="preview-canvas">
+                <div class="project-portfolio-graphic">
+                  <div class="portfolio-wire-hero">
+                    <div class="portfolio-wire-avatar"></div>
+                    <div class="portfolio-wire-lines">
+                      <div style="height:6px; width:70%; background:var(--lavender); border-radius:2px;"></div>
+                      <div style="height:4px; width:45%; background:rgba(196,181,253,0.5); border-radius:2px;"></div>
+                    </div>
+                  </div>
+                  <div style="height:28px; width:100%; border:1px solid rgba(139,92,246,0.3); border-radius:4px; background:rgba(124,58,237,0.15);"></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-content">
+              <span class="project-category-tag">Portfolio Design Project</span>
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-desc">
+                A responsive portfolio website designed to present professional information, technical skills, projects, and contact details.
+              </p>
+              
+              <div class="project-tech-badges">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+              </div>
+
+              <div class="project-actions">
+                <!-- Current Website is live -->
+                <a href="#hero" class="project-link" title="Explore current portfolio website">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 24 24"><path d="M14 3H21V10M21 3L10 14M5 7H3V21H17V19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                </a>
+                <button type="button" class="project-modal-trigger" data-project-target="portfolio">
+                  Project Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SKILLS SECTION
+         ==================================================================== -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-label">TECHNICAL CAPABILITIES</span>
+          <h2 class="section-title">Built With the Right Foundations</h2>
+          <p class="section-desc">
+            Clean code, semantic structures, and responsive layouts designed for long-term maintainability and high user satisfaction.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill 1: HTML5 -->
+          <div class="skill-badge-card reveal-fade-up delay-1">
+            <div class="skill-icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2L3 5L5 19L12 22L19 19L21 5L12 2ZM17.3 8.3H8.3L8.6 11.3H17L16.4 17L12 18.2L7.6 17L7.4 15H9.6L9.7 15.8L12 16.4L14.3 15.8L14.6 13.1H7.2L6.6 6.3H17.5L17.3 8.3Z"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">HTML5</h3>
+              <p class="skill-desc">Semantic elements, clean page architecture, accessible DOM structures, and strong SEO foundations.</p>
+            </div>
+          </div>
+
+          <!-- Skill 2: CSS3 -->
+          <div class="skill-badge-card reveal-fade-up delay-2">
+            <div class="skill-icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2L3 5L5 19L12 22L19 19L21 5L12 2ZM16.4 8.3H7.6L7.8 10.3H14.4L14.1 13.1H7.8L8 15.1H13.8L13.5 16.4L12 16.8L10.5 16.4L10.4 15.1H8.4L8.6 17.6L12 18.6L15.4 17.6L15.9 12.3L16.4 8.3Z"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">CSS3</h3>
+              <p class="skill-desc">CSS custom properties, Flexbox, CSS Grid, smooth transitions, and fluid typography.</p>
+            </div>
+          </div>
+
+          <!-- Skill 3: JavaScript -->
+          <div class="skill-badge-card reveal-fade-up delay-3">
+            <div class="skill-icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 3H21V21H3V3ZM11.15 15.85C11.15 17.65 9.8 18.3 8.05 18.3C6.35 18.3 5.45 17.45 5.05 16.35L6.85 15.3C7.1 15.9 7.45 16.4 8.05 16.4C8.6 16.4 8.95 16.1 8.95 15.35V9.75H11.15V15.85ZM18.8 15.45C18.45 17.2 16.9 18.3 14.9 18.3C12.85 18.3 11.55 16.8 11.55 14.65C11.55 12.4 12.95 11 15 11C16.95 11 18.25 12.3 18.25 14.4H13.7C13.8 15.7 14.65 16.4 15.75 16.4C16.45 16.4 17 16.05 17.3 15.5L18.8 15.45Z"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">JavaScript</h3>
+              <p class="skill-desc">Vanilla ES6+, DOM manipulation, event handling, asynchronous APIs, and interactive UI logic.</p>
+            </div>
+          </div>
+
+          <!-- Skill 4: Responsive Web Design -->
+          <div class="skill-badge-card reveal-fade-up delay-1">
+            <div class="skill-icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 6H20V16H4V6ZM20 2H4C2.9 2 2 2.9 2 4V16C2 17.1 2.9 18 4 18H10L8 21V22H16V21L14 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">Responsive Web Design</h3>
+              <p class="skill-desc">Mobile-first principles, fluid viewports, and seamless layouts across phones, tablets, and desktops.</p>
+            </div>
+          </div>
+
+          <!-- Skill 5: UI/UX Fundamentals -->
+          <div class="skill-badge-card reveal-fade-up delay-2">
+            <div class="skill-icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM6.5 12C6.5 10.62 7.62 9.5 9 9.5C10.38 9.5 11.5 10.62 11.5 12C11.5 13.38 10.38 14.5 9 14.5C7.62 14.5 6.5 13.38 6.5 12ZM15 17.5C13.62 17.5 12.5 16.38 12.5 15C12.5 13.62 13.62 12.5 15 12.5C16.38 12.5 17.5 13.62 17.5 15C17.5 16.38 16.38 17.5 15 17.5ZM17 9.5C15.62 9.5 14.5 8.38 14.5 7C14.5 5.62 15.62 4.5 17 4.5C18.38 4.5 19.5 5.62 19.5 7C19.5 8.38 18.38 9.5 17 9.5Z"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">UI/UX Fundamentals</h3>
+              <p class="skill-desc">Typographic hierarchy, color contrast compliance, generous whitespace, and purposeful user flows.</p>
+            </div>
+          </div>
+
+          <!-- Skill 6: Website Optimization -->
+          <div class="skill-badge-card reveal-fade-up delay-3">
+            <div class="skill-icon-bubble" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M13 2L3 14H12L11 22L21 10H12L13 2Z"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">Website Optimization</h3>
+              <p class="skill-desc">Asset compression, zero unnecessary external scripts, clean DOM rendering, and rapid load times.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         WORK PROCESS SECTION
+         ==================================================================== -->
+    <section class="section-alt" id="process">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-label">HOW WE WORK</span>
+          <h2 class="section-title">From Idea to Website</h2>
+          <p class="section-desc">
+            A simple and collaborative process helps turn your requirements into a website that reflects your goals.
+          </p>
+        </div>
+
+        <div class="process-timeline">
+          <!-- Step 1: Discover -->
+          <div class="process-step-card reveal-fade-up delay-1">
+            <div class="step-number-bubble">01</div>
+            <h3 class="step-title">Discover</h3>
+            <p class="step-desc">Understand your goals, target audience, requirements, and ideas.</p>
+          </div>
+
+          <!-- Step 2: Design -->
+          <div class="process-step-card reveal-fade-up delay-2">
+            <div class="step-number-bubble">02</div>
+            <h3 class="step-title">Design</h3>
+            <p class="step-desc">Plan the layout, visual style, and user experience.</p>
+          </div>
+
+          <!-- Step 3: Develop -->
+          <div class="process-step-card reveal-fade-up delay-3">
+            <div class="step-number-bubble">03</div>
+            <h3 class="step-title">Develop</h3>
+            <p class="step-desc">Build a responsive website using HTML, CSS, and JavaScript.</p>
+          </div>
+
+          <!-- Step 4: Deliver -->
+          <div class="process-step-card reveal-fade-up delay-4">
+            <div class="step-number-bubble">04</div>
+            <h3 class="step-title">Deliver</h3>
+            <p class="step-desc">Test the website, refine the details, and prepare it for deployment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         WHY SVA DIGITAL STUDIO?
+         ==================================================================== -->
+    <section id="why-sva">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-label">WHY CHOOSE SVA</span>
+          <h2 class="section-title">Small Details. Thoughtful Solutions.</h2>
+          <p class="section-desc">
+            Every website is crafted with personal care, clear communication, and an unwavering focus on quality.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <!-- Highlight 1 -->
+          <div class="why-card reveal-fade-up delay-1">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+            </div>
+            <h3 class="why-card-title">Clean and Modern Design</h3>
+            <p class="why-card-desc">Minimalist aesthetics, elegant typography, and focused layouts that elevate your brand.</p>
+          </div>
+
+          <!-- Highlight 2 -->
+          <div class="why-card reveal-fade-up delay-2">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 6H20V16H4V6ZM2 4C2 2.9 2.9 2 4 2H20C21.1 2 22 2.9 22 4V16C22 17.1 21.1 18 20 18H14L16 21V22H8V21L10 18H4C2.9 18 2 17.1 2 16V4Z"/></svg>
+            </div>
+            <h3 class="why-card-title">Responsive Layouts</h3>
+            <p class="why-card-desc">Designed to adapt naturally across mobile phones, tablets, laptops, and desktop monitors.</p>
+          </div>
+
+          <!-- Highlight 3 -->
+          <div class="why-card reveal-fade-up delay-3">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2ZM20 16H5.17L4 17.17V4H20V16Z"/></svg>
+            </div>
+            <h3 class="why-card-title">Clear Communication</h3>
+            <p class="why-card-desc">Honest expectations, responsive updates, and a straightforward development journey.</p>
+          </div>
+
+          <!-- Highlight 4 -->
+          <div class="why-card reveal-fade-up delay-1">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+            </div>
+            <h3 class="why-card-title">Usability & Accessibility</h3>
+            <p class="why-card-desc">Built with keyboard accessibility, high-contrast readability, and intuitive interactions.</p>
+          </div>
+
+          <!-- Highlight 5 -->
+          <div class="why-card reveal-fade-up delay-2">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M19.14 12.94C19.18 12.63 19.2 12.32 19.2 12C19.2 11.68 19.18 11.37 19.14 11.06L21.46 9.25C21.67 9.09 21.73 8.79 21.6 8.56L19.4 4.75C19.27 4.53 18.98 4.45 18.75 4.54L16.02 5.64C15.46 5.21 14.85 4.86 14.18 4.61L13.77 1.71C13.73 1.46 13.51 1.27 13.26 1.27H8.86C8.61 1.27 8.39 1.46 8.35 1.71L7.94 4.61C7.27 4.86 6.66 5.21 6.1 5.64L3.37 4.54C3.14 4.45 2.85 4.53 2.72 4.75L0.52 8.56C0.39 8.79 0.45 9.09 0.66 9.25L2.98 11.06C2.94 11.37 2.92 11.68 2.92 12C2.92 12.32 2.94 12.63 2.98 12.94L0.66 14.75C0.45 14.91 0.39 15.21 0.52 15.44L2.72 19.25C2.85 19.47 3.14 19.55 3.37 19.46L6.1 18.36C6.66 18.79 7.27 19.14 7.94 19.39L8.35 22.29C8.39 22.54 8.61 22.73 8.86 22.73H13.26C13.51 22.73 13.73 22.54 13.77 22.29L14.18 19.39C14.85 19.14 15.46 18.79 16.02 18.36L18.75 19.46C18.98 19.55 19.27 19.47 19.4 19.25L21.6 15.44C21.73 15.21 21.67 14.91 21.46 14.75L19.14 12.94ZM11.06 15.5C9.13 15.5 7.56 13.93 7.56 12C7.56 10.07 9.13 8.5 11.06 8.5C12.99 8.5 14.56 10.07 14.56 12C14.56 13.93 12.99 15.5 11.06 15.5Z"/></svg>
+            </div>
+            <h3 class="why-card-title">Tailored Solutions</h3>
+            <p class="why-card-desc">No rigid templates. Solutions structured specifically around your unique project goals.</p>
+          </div>
+
+          <!-- Highlight 6 -->
+          <div class="why-card reveal-fade-up delay-3">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z"/></svg>
+            </div>
+            <h3 class="why-card-title">Performant & Maintainable Code</h3>
+            <p class="why-card-desc">Pure HTML, CSS, and JavaScript written without heavy bloat so your site loads fast.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         FAQ SECTION
+         ==================================================================== -->
+    <section class="section-alt" id="faq">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-label">COMMON INQUIRIES</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-desc">
+            Answers to common questions about services, deliverables, process, and pricing.
+          </p>
+        </div>
+
+        <div class="faq-accordion reveal-fade-up delay-1">
+          <!-- Question 1 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false" aria-controls="faq-ans-1">
+              <span class="faq-question-text">What types of websites do you create?</span>
+              <span class="faq-chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 10L12 15L17 10H7Z"/></svg>
+              </span>
+            </button>
+            <div id="faq-ans-1" class="faq-answer-pane" role="region">
+              <div class="faq-answer-content">
+                I focus on business websites, portfolio websites, and landing pages using HTML, CSS, and JavaScript.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false" aria-controls="faq-ans-2">
+              <span class="faq-question-text">Will my website work on mobile devices?</span>
+              <span class="faq-chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 10L12 15L17 10H7Z"/></svg>
+              </span>
+            </button>
+            <div id="faq-ans-2" class="faq-answer-pane" role="region">
+              <div class="faq-answer-content">
+                Yes. I design responsive layouts intended to work across mobile phones, tablets, laptops, and desktop screens.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false" aria-controls="faq-ans-3">
+              <span class="faq-question-text">Can I request changes to the design?</span>
+              <span class="faq-chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 10L12 15L17 10H7Z"/></svg>
+              </span>
+            </button>
+            <div id="faq-ans-3" class="faq-answer-pane" role="region">
+              <div class="faq-answer-content">
+                Yes. Project requirements and requested changes can be discussed before and during development.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false" aria-controls="faq-ans-4">
+              <span class="faq-question-text">How can I start a project?</span>
+              <span class="faq-chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 10L12 15L17 10H7Z"/></svg>
+              </span>
+            </button>
+            <div id="faq-ans-4" class="faq-answer-pane" role="region">
+              <div class="faq-answer-content">
+                You can contact me through the contact section or reach out using my social profiles or email.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 5 -->
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false" aria-controls="faq-ans-5">
+              <span class="faq-question-text">How much does a website cost?</span>
+              <span class="faq-chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 10L12 15L17 10H7Z"/></svg>
+              </span>
+            </button>
+            <div id="faq-ans-5" class="faq-answer-pane" role="region">
+              <div class="faq-answer-content">
+                Pricing depends on the scope, complexity, and requirements of each project. Contact me to discuss your needs.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CONTACT SECTION
+         ==================================================================== -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-label">GET IN TOUCH</span>
+          <h2 class="section-title">Have an Idea? Let's Build It.</h2>
+          <p class="section-desc">
+            Tell me about your project, and let's explore how we can bring your ideas online.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Info & Social Links -->
+          <div class="contact-info-panel reveal-fade-up delay-1">
+            <div>
+              <h3 class="contact-info-title">Let's start the conversation</h3>
+              <p class="contact-info-desc">
+                Whether you need a complete website from scratch or want to discuss project ideas, feel free to drop a message or reach out across any channel.
+              </p>
+            </div>
+
+            <!-- Email Direct Channel (Gmail Compose) -->
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sva.digitalstudio01@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-channel-card" title="Click to compose on Gmail">
+              <div class="channel-icon-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">Direct Email (Click to Compose on Gmail)</span>
+                <span class="channel-value">sva.digitalstudio01@gmail.com</span>
+              </div>
+            </a>
+
+            <!-- LinkedIn Channel Card -->
+            <a href="https://www.linkedin.com/in/svadigitalstudio" target="_blank" rel="noopener noreferrer" class="contact-channel-card" title="Connect on LinkedIn">
+              <div class="channel-icon-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">LinkedIn (Professional Profile)</span>
+                <span class="channel-value">www.linkedin.com/in/svadigitalstudio</span>
+              </div>
+            </a>
+
+            <!-- Social and Contact Icons Group -->
+            <div>
+              <span class="hero-social-label" style="display:block; margin-bottom: 0.75rem;">Social & Developer Profiles</span>
+              <div class="social-icons-group">
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/sva.digitalstudio/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram profile @sva.digitalstudio">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                  </svg>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/svadigitalstudio" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn profile svadigitalstudio" title="LinkedIn Profile (svadigitalstudio)">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </a>
+
+                <!-- Email (Direct Gmail Compose) -->
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sva.digitalstudio01@gmail.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Compose email to sva.digitalstudio01@gmail.com on Gmail" title="Compose on Gmail (sva.digitalstudio01@gmail.com)">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+                  </svg>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/svadigitalstudio01" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub profile svadigitalstudio01">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Contact Form -->
+          <div class="contact-form-panel reveal-fade-up delay-2">
+            <form id="contact-form" class="contact-form" novalidate>
+              <!-- Full Name -->
+              <div class="form-group">
+                <label for="contact-name" class="form-label">
+                  Full Name <span class="required-star">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="contact-name" 
+                  name="name" 
+                  class="form-input" 
+                  placeholder="e.g. Alex Morgan" 
+                  required
+                  autocomplete="name"
+                >
+              </div>
+
+              <!-- Email Address -->
+              <div class="form-group">
+                <label for="contact-email" class="form-label">
+                  Email Address <span class="required-star">*</span>
+                </label>
+                <input 
+                  type="email" 
+                  id="contact-email" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="e.g. alex@example.com" 
+                  required
+                  autocomplete="email"
+                >
+              </div>
+
+              <!-- Project Type Dropdown -->
+              <div class="form-group">
+                <label for="contact-type" class="form-label">
+                  Project Type <span class="required-star">*</span>
+                </label>
+                <select id="contact-type" name="type" class="form-select" required>
+                  <option value="" disabled selected>Select project category...</option>
+                  <option value="Business Website">Business Website</option>
+                  <option value="Portfolio Website">Portfolio Website</option>
+                  <option value="Landing Page">Landing Page</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <!-- Project Details -->
+              <div class="form-group">
+                <label for="contact-message" class="form-label">
+                  Project Details <span class="required-star">*</span>
+                </label>
+                <textarea 
+                  id="contact-message" 
+                  name="message" 
+                  class="form-textarea" 
+                  placeholder="Share a brief overview of your website goals, features needed, or timeline..." 
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Send Message
+              </button>
+
+              <!-- Feedback Banner for User Validation -->
+              <div id="form-feedback" class="form-feedback-message" role="alert" aria-live="polite"></div>
+
+              <!-- Direct Mailto Fallback Button Container (populated on submit) -->
+              <div id="mailto-fallback-container"></div>
+
+              <!-- Direct Fallback Alternative Info -->
+              <p class="form-fallback-mailto">
+                Prefer email directly? You can write to me anytime at 
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sva.digitalstudio01@gmail.com" target="_blank" rel="noopener noreferrer">sva.digitalstudio01@gmail.com</a>.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       FOOTER SECTION
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand-col">
+          <a href="#hero" class="brand-link" aria-label="SVA Digital Studio Home">
+            <img src="sva-logo.jpeg" alt="SVA Digital Studio Logo" class="brand-logo-img" width="42" height="42">
+            <span class="brand-text">
+              <span class="brand-title">SVA</span>
+              <span class="brand-subtitle">Digital Studio</span>
+            </span>
+          </a>
+          <p class="footer-tagline">Thoughtful Design. Modern Websites.</p>
+          <p class="footer-statement">
+            Smart Solutions. Visionary Design. Meaningful Achievement.
+          </p>
+        </div>
+
+        <!-- Quick Navigation Links -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#hero" class="footer-nav-link">Home</a></li>
+            <li><a href="#about" class="footer-nav-link">About Brand</a></li>
+            <li><a href="#services" class="footer-nav-link">Services</a></li>
+            <li><a href="#projects" class="footer-nav-link">Selected Projects</a></li>
+            <li><a href="#process" class="footer-nav-link">Work Process</a></li>
+            <li><a href="#contact" class="footer-nav-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Links -->
+        <div>
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#services" class="footer-nav-link">Business Websites</a></li>
+            <li><a href="#services" class="footer-nav-link">Portfolio Websites</a></li>
+            <li><a href="#services" class="footer-nav-link">Landing Pages</a></li>
+            <li><a href="#skills" class="footer-nav-link">Responsive Design</a></li>
+            <li><a href="#skills" class="footer-nav-link">Web Optimization</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Channels -->
+        <div>
+          <h4 class="footer-col-title">Connect</h4>
+          <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1rem;">
+            Feel free to connect or review code repositories on GitHub.
+          </p>
+          <div class="social-icons-group">
+            <a href="https://www.instagram.com/sva.digitalstudio/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/svadigitalstudio" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn profile svadigitalstudio" title="LinkedIn Profile (svadigitalstudio)">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sva.digitalstudio01@gmail.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Compose email to sva.digitalstudio01@gmail.com on Gmail" title="Compose on Gmail (sva.digitalstudio01@gmail.com)">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/></svg>
+            </a>
+            <a href="https://github.com/svadigitalstudio01" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Sub-bar -->
+      <div class="footer-bottom-bar">
+        <p class="footer-copyright">
+          &copy; <span id="current-year">2026</span> SVA Digital Studio. All rights reserved.
+        </p>
+        <p style="font-size: 0.8125rem; color: var(--lavender-dim);">
+          Smart Solutions &bull; Visionary Design &bull; Meaningful Achievement
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top of page">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 12L12 4L20 12H15V20H9V12H4Z"/>
+    </svg>
+  </button>
+
+  <!-- Accessible Project Details Modal Dialog -->
+  <div id="project-modal" class="project-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="project-modal-dialog">
+      <button type="button" id="modal-close-btn" class="modal-close-btn" aria-label="Close dialog">
+        <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"/></svg>
+      </button>
+      
+      <span id="modal-project-category" class="modal-category"></span>
+      <h3 id="modal-project-title" class="modal-title"></h3>
+      
+      <div class="modal-body">
+        <p id="modal-project-desc" style="white-space: pre-line;"></p>
+        <div>
+          <h4 style="font-size:0.875rem; font-weight:700; color:var(--text-main); margin-bottom:0.4rem;">Technologies Used:</h4>
+          <div id="modal-project-tech" class="modal-tech-list"></div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a id="modal-external-link" href="#contact" class="btn btn-primary btn-sm">
+          Discuss This Project
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="./script.js"></script>
+</body>
+</html>
